@@ -29,7 +29,7 @@ const Hero = () => {
 
     <div className='hero-layout'>
 {/* ------------------------------ Left Section ------------------------------ */}
-        <header className='flex flex-col justify-center xl:w-2/6 md:w-full w-4/5 md:px-20 px-5 items-center'>
+        <header className='flex flex-col justify-center xl:w-2/6 md:w-full w-9/12 md:px-20 px-5 items-center'>
             <div className='flex flex-col gap-7 md:items-start justify-center h-screen'>
                 <div className='hero-text'>
                     <h1>Building
