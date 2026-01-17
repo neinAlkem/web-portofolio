@@ -111,10 +111,10 @@ const ExperienceSection = () => {
                   </GlowCards>
                 </div>
                 <div className="xl:w-4/6">
-                  <div className="flex items-start">
+                  <div className="flex items-star">
                     <div className="timeline-wrapper">
                       <div className="timeline" />
-                      <div className="gradient-line w-5 h-full" />
+                      <div className="gradient-line w-5 h-ful" />
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo">

@@ -21,6 +21,18 @@ const Hero = () => {
             }
         )
     })
+
+    useGSAP(() => {
+        gsap.from('#img-hero', {
+            y: 80,
+            opacity: 0,
+            scale: 0.8,
+            duration: 3,
+            ease: 'expo.out',
+            delay: 0.4,
+        })
+        })
+
   return (
    <section id='hero' className='relative overflow-hidden'>
     <div className='absolute top-0 left-0 z-10'>
@@ -29,7 +41,7 @@ const Hero = () => {
 
     <div className='hero-layout'>
 {/* ------------------------------ Left Section ------------------------------ */}
-        <header className='flex flex-col justify-center xl:w-4xl md:w-full w-9/12 md:px-20 px-5 items-center'>
+        <header className='flex flex-col justify-center xl:w-4xl md:w-full w-9/12 md:px-20 px-5 items-center' >
             <div className='flex flex-col gap-7 md:items-start justify-center h-screen'>
                 <div className='hero-text'>
                     <h1>Building
@@ -50,7 +62,7 @@ const Hero = () => {
                     <h1>that Deliver Impact</h1>
                 </div>
 
-                <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+                <p className="text-white-50 md:text-xl relative z-10 pointer-events-none md:max-w-10/12 xl:max-w-11/12 w-full">
                    Hi, I’m Baghas - a computer science student passionate about learning and 
                    building scalable data systems, analytics, and AI/ML solutions.
                 </p>
@@ -65,8 +77,8 @@ const Hero = () => {
 
 {/* ------------------------------ Right Section ------------------------------ */}
         <figure>
-            <div className="hero-3d-layout">
-                <HeroExperience />
+            <div className='hidden xl:block'>
+                <img id='img-hero'src="/assets/images/hero_img.png" alt="" /> 
             </div>
         </figure>
     </div>
