@@ -45,7 +45,7 @@ useGSAP(() => {
         { opacity: 1, duration: 1} )
 }, []);
 return (
-    <div id='work' ref={sectionRef} className='app-showcase'>
+    <div id='projects' ref={sectionRef} className='app-showcase'>
         <div className='w-full'>
         <TitleHeader 
             title='Portofolio Projects'
