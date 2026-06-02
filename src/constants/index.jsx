@@ -25,7 +25,8 @@ const words = [
   { text: "Pipelines", imgPath: "assets/images/pipeline.svg" },
   { text: "Dashboard", imgPath: "assets/images/dashboard.svg" },
   { text: "Database", imgPath: "assets/images/database.svg" },
-  { text: "AI/ML", imgPath: "assets/images/ai.svg" }
+  { text: "AI/ML", imgPath: "assets/images/ai.svg" },
+
 ];
 
 const counterItems = [
@@ -82,46 +83,16 @@ const logoIconsList = [
     imgPath: "assets/images/tools/airflow.png",
   },
   {
-    imgPath: "assets/images/tools/java.png",
+    imgPath: "assets/images/tools/azure.png",
   },
   {
-    imgPath: "assets/images/tools/vscode.png",
+    imgPath: "assets/images/tools/databricks.png",
   },
   {
-    imgPath: "assets/images/tools/github.png",
+    imgPath: "assets/images/tools/actions.png",
   },
   {
-    imgPath: "assets/images/tools/sql.png",
-  },
-  {
-    imgPath: "assets/images/tools/postgres.png",
-  },
-  {
-    imgPath: "assets/images/tools/ssms.png",
-  },
-  {
-    imgPath: "assets/images/tools/bash.png",
-  },
-  {
-    imgPath: "assets/images/tools/powerbi.png",
-  },
-  {
-    imgPath: "assets/images/tools/kafka.png",
-  },
-  {
-    imgPath: "assets/images/tools/spark.png",
-  },
-  {
-    imgPath: "assets/images/tools/dbt.png",
-  },
-  {
-    imgPath: "assets/images/tools/terraform.png",
-  },
-  {
-    imgPath: "assets/images/tools/gcp.png",
-  },
-  {
-    imgPath: "assets/images/tools/airflow.png",
+    imgPath: "assets/images/tools/postman.png",
   },
   
 ];
