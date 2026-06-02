@@ -63,8 +63,7 @@ const Hero = () => {
                 </div>
 
                 <p className="text-white-50 md:text-xl relative z-10 pointer-events-none md:max-w-10/12 xl:max-w-11/12 w-full">
-                   Hi, I’m Baghas - a computer science student passionate about learning and 
-                   building scalable data systems, analytics, and AI/ML solutions.
+                I am an engineer passionate about integrating secure, intelligent technologies into real-world solutions through hands-on development.
                 </p>
 
                 <Button className='w-80 md:w-90 md:h-16 h-12' 
